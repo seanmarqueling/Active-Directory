@@ -8,3 +8,4 @@ In this project, I build an Active Diretory Server in a Windows 2019 Server.
 In this project - I created a Windows 2019 Server within Virtual Box. When setting up the server I needed to make sure that that are two different networks
 The first network is the NAT that will be used to connect other users to the Windows Server
 
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/1.%20NAT.png?raw=true)
