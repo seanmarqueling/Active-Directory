@@ -90,7 +90,11 @@ Select 'Internet' for the network to be used for NAT server.
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%201.png?raw=true)
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%202.png?raw=true)
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%203.png?raw=true)
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%204.png?raw=true)
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%205.png?raw=true)
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%206.png?raw=true)
