@@ -31,7 +31,7 @@ After the netwroks have been renamed, I went into the internal network and confi
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/33.png?raw=true)
 
-## Instructions - Setting up AD DS
+## Instructions - Setting up AD DS - Active Directory Domain Server
 
 From Windows 2019 Server dashboard - to add AD DS - we need to go into Roles and Features to select that AD DS and install it.
 
@@ -60,3 +60,37 @@ From the _Admin organizational unit create a new user.
 In order to make this user an admin I added it to 'Domain Admins'.
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/9%20domain%20admins.png?raw=true)
+
+## Instructions - RAS / NAT - Remote Access Server & Network Address Translation
+
+Next step is to install the RAS / NAT. This server will allow uses to connect to the server and use the internet.
+
+In the server dashboard we need to add roles and features to install this application.
+
+Select 'Remote Access'.
+
+![iamge](https://github.com/seanmarqueling/Active-Directory/blob/main/10.%20ras%20nat.png?raw=true)
+
+Select 'Routing".
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/11.%20ras%20nat%202.png?raw=true)
+
+Once that has been installed go into 'Tools' and select 'Routing and Remote Access'
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/12.%20ras%20nat%203.png?raw=true)
+
+From here - configure the server to NAT.
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/NAT.png?raw=true)
+
+Select 'Internet' for the network to be used for NAT server.
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/13.%20ras%20nat%204.png?raw=true)
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%201.png?raw=true)
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%202.png?raw=true)
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%203.png?raw=true)
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%204.png?raw=true)
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%205.png?raw=true)
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%206.png?raw=true)
