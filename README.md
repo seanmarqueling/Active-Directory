@@ -9,7 +9,7 @@ In this project, I build an Active Diretory Server in a Windows 2019 Server.
 
 ## Instuctions - Setting up the network
 
-In this project - I created a Windows 2019 Server within Virtual Box. When setting up the server I needed to make sure that that are two different networks
+In this project - I created a Windows 2019 Server within Virtual Box. When setting up the server I needed to make sure that there are two different networks.
 The first network is the internet network that will be used to allow users to use the same public IP address and access the Internet.
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/1.%20NAT.png?raw=true)
@@ -44,3 +44,19 @@ After AD DS is installed - go to the yellow flag at the top and promote this com
 When deploying the configurement we will be adding a new forest that will be called 'example.com'.
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/6.%20Deployment.png?raw=true)_
+
+Once the domain is created I then created an admin account for the server.
+
+To create an admin account I went to Active Directory Users and Computers.
+
+Go into example.com, create a new organizational unit and call it '_ADMIN'.
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/7.%20admin.png?raw=true)
+
+From the _Admin organizational unit create a new user.
+
+![iamge](https://github.com/seanmarqueling/Active-Directory/blob/main/8.%20user.png?raw=true)
+
+In order to make this user an admin I added it to 'Domain Admins'.
+
+![image](https://github.com/seanmarqueling/Active-Directory/blob/main/9%20domain%20admins.png?raw=true)
