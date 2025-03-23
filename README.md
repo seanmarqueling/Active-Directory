@@ -18,7 +18,7 @@ The second network is the internal network allow users to connect from their wor
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/2.%20Internet.png?raw=true)
 
-Once the two networks are created, I need to go login to the Windows 2019 Server and setup the networks. In the image below we can see that we have both of the networks created. I went into the
+Once the two networks are created, I login to the Windows 2019 Server and setup the networks. In the image below we can see that we have both of the networks created. I went into the
 change adapter options to rename the networks to be 'Internet' and 'Interal' to easily differentiate the two when connecting users to the server. 
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/1.%20Network.png?raw=true)
