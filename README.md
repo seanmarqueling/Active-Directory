@@ -9,6 +9,11 @@ In this project, I build an Active Diretory Server in a Windows 2019 Server.
 
 ## Instuctions - Setting up the network
 
+- Create two different networks: Internal & Internet
+- Active Directory Domain Server
+- Remote Access Server & Network Address Translation
+- Dynamic Host Configuration Protocol
+
 In this project - I created a Windows 2019 Server within Virtual Box. When setting up the server I needed to make sure that there are two different networks.
 The first network is the internet network that will be used to allow users to use the same public IP address and access the Internet.
 
@@ -87,14 +92,35 @@ Select 'Internet' for the network to be used for NAT server.
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/13.%20ras%20nat%204.png?raw=true)
 
+## Instructions - DHCP - Dynamic Host Configuration Protocol
+
+Within the Server Dashboard go into add roles and features and select DHCP server.
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%201.png?raw=true)
+
+After DHCP installs, go into tools and select DHCP
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%202.png?raw=true)
 
+In the DHCP server application, create a new scope.
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%203.png?raw=true)
+
+Within the scope create a range for the list of IPs that can be used on the server.
+
+-Start IP Address: 172.16.0.100
+-End IP Address: 172.16.0.200
+-Length: 24
+-Subnet Mask: 255.255.255.0
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%204.png?raw=true)
 
+Select 'Yes, I want to configure these options now.
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%205.png?raw=true)
 
+Create a router default gateway IP address 172.16.0.1
+
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/DHCP%206.png?raw=true)
+
+Windows Server 2019 is now setup with Active Directory that can allow users to connet to it and gain access to the internet.
