@@ -7,14 +7,16 @@ In this project, I build an Active Diretory Server in a Windows 2019 Server.
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/0.%20Direction.png?raw=true)
 
-## Instuctions - Setting up the network
+The project includes the following parts:
 
 - Create two different networks: Internal & Internet
 - Active Directory Domain Server
 - Remote Access Server & Network Address Translation
 - Dynamic Host Configuration Protocol
 
-In this project - I created a Windows 2019 Server within Virtual Box. When setting up the server I needed to make sure that there are two different networks.
+## Instuctions - Setting up the network
+
+When setting up the server I needed to make sure that there are two different networks.
 The first network is the internet network that will be used to allow users to use the same public IP address and access the Internet.
 
 ![image](https://github.com/seanmarqueling/Active-Directory/blob/main/1.%20NAT.png?raw=true)
